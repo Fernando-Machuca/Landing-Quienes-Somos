@@ -77,6 +77,21 @@ section p {
     --bs-btn-disabled-border-color: #ff831d;
 }
 
+#quienes-somos {
+    background-image: url(../img/secciones/wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nuestros-servicios {
+    background-image: url(../img/secciones/wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: top;
+}
+
 #texto-sucursales {
     text-align: left;
 }
@@ -130,6 +145,14 @@ footer a:hover {
     color: #ff831d;
 }
 
+/* Breakpoints */
+
+@media (min-width: 576px) {
+    .btn-empresas {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     #logo-movil {
         margin-right: 46%;
@@ -138,9 +161,5 @@ footer a:hover {
     #mapa-sucursales {
         width: 350px;
         height: 150;
-    }
-
-    .btn-empresas {
-        display: none;
     }
 }
